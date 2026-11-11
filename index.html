@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muhammad Tahir Hussain — Issue #1</title>
+<meta name="description" content="Muhammad Tahir Hussain: AI engineer, research analyst, coder, problem solver. A comic-book portfolio with case files synced live from GitHub.">
+<meta name="theme-color" content="#2f6bff">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 0l4 8 8-4-3 9 7 3-7 3 3 9-8-4-4 8-4-8-8 4 3-9-7-3 7-3-3-9 8 4z' fill='%23ffd60a' stroke='%2314121c' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/img/portrait.webp">
+<link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+
+<div class="splash" id="loader" aria-hidden="true"><b class="burst" id="splashB"><span>WHAM!</span></b></div>
+
+<header class="mast">
+  <a href="#top" class="mast__logo">MTH<i>comics</i></a>
+  <nav>
+    <a href="#origin">Origin</a>
+    <a href="#cases">Case files</a>
+    <a href="#powers">Powers</a>
+    <a href="#end">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+<!-- cover -->
+<section class="cover" id="cover">
+  <div class="rays" aria-hidden="true"></div>
+  <p class="cover__tag" data-depth=".3"><b>Issue #1</b><span id="issueDate">2026</span><span>Free</span></p>
+  <h1 class="title" aria-label="Muhammad Tahir Hussain" data-depth=".6">
+    <span class="t1" aria-hidden="true">Muhammad</span>
+    <span class="t2" aria-hidden="true">Tahir</span>
+    <span class="t3" aria-hidden="true">Hussain</span>
+  </h1>
+  <p class="box cover__box" data-depth=".4">Research analyst. Coder. Problem solver.</p>
+  <div class="cover__hero" data-depth="1.2">
+    <i class="burst cover__halo" aria-hidden="true"></i>
+    <img class="comic" id="hero" src="assets/img/portrait.webp" width="1100" height="1430" alt="Muhammad Tahir Hussain, drawn comic-book style">
+  </div>
+  <b class="burst cover__burst" data-depth="1.8"><span>AI<br>Engineer!</span></b>
+  <a class="cover__turn" href="#origin">Turn the page<svg viewBox="0 0 40 24" aria-hidden="true"><path d="M2 12h30M22 3l11 9-11 9" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+</section>
+
+<div class="band" aria-hidden="true"><div id="band"><span>AI Engineer</span><i>★</i><span>Research Analyst</span><i>★</i><span>Coder</span><i>★</i><span>Problem Solver</span><i>★</i><span>AI Engineer</span><i>★</i><span>Research Analyst</span><i>★</i><span>Coder</span><i>★</i><span>Problem Solver</span><i>★</i></div></div>
+
+<!-- origin -->
+<section class="page" id="origin">
+  <h2 class="head"><span>Origin story</span></h2>
+  <div class="grid grid--origin">
+    <article class="panel p-yel"><i class="num">1</i><h3>AI Engineer</h3><p class="box">Models as systems, not demos.</p><b class="sfx">ZAP!</b></article>
+    <article class="panel p-red"><i class="num">2</i><h3>Research Analyst</h3><p class="box">Evidence first.</p><b class="sfx">AHA!</b></article>
+    <article class="panel p-blu"><i class="num">3</i><h3>Coder</h3><p class="box">C. C++. Python.</p><b class="sfx">CLACK!</b></article>
+    <article class="panel p-ink"><i class="num">4</i><h3>Problem Solver</h3><p class="box">Find the invariant.</p><b class="sfx">POW!</b></article>
+    <article class="panel p-wide"><p class="bubble">I build systems that learn, and prove that they do.</p></article>
+  </div>
+</section>
+
+<!-- case files, drawn from the GitHub API -->
+<section class="page page--blu" id="cases">
+  <h2 class="head"><span>Case files</span><sup id="caseN">00</sup></h2>
+  <p class="box sync" id="sync">Fetching from GitHub…</p>
+  <div class="grid grid--cases" id="caseGrid"></div>
+</section>
+
+<!-- powers -->
+<section class="page" id="powers">
+  <h2 class="head"><span>Powers</span></h2>
+  <ul class="powers" id="powerList"></ul>
+</section>
+
+<!-- end -->
+<section class="end" id="end">
+  <div class="rays rays--red" aria-hidden="true"></div>
+  <h2 class="title title--end"><span>To be</span><span class="t2">continued…</span></h2>
+  <div class="end__row">
+    <img class="comic end__me" id="hero2" src="assets/img/portrait.webp" width="1100" height="1430" alt="">
+    <div class="end__talk">
+      <p class="bubble bubble--l">Got a hard problem? Let's talk!</p>
+      <div class="end__btns">
+        <a class="btn p-yel" href="mailto:mtahirhussainofficial@gmail.com">Email</a>
+        <a class="btn p-paper" href="https://github.com/MuhammadTahirHussain-Official" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn p-blu" href="https://www.linkedin.com/in/muhammad-tahir-hussain-5ba414403/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+  <footer><span>© <span id="year">2026</span> Muhammad Tahir Hussain</span><a href="#top">Back to cover ↑</a></footer>
+</section>
+
+</main>
+
+<script>(function(){function k(){var l=document.getElementById("loader");if(l&&!window.__started)l.remove();}window.addEventListener("error",k);setTimeout(k,7000);})();</script>
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/lenis.min.js"></script>
+<script src="js/main.js?v=1"></script>
+</body>
+</html>
